@@ -1,0 +1,76 @@
+import { color } from "@theme/color";
+
+export const button = {
+  defaultColor: color.white,
+  defaultBackgroundColor: color.quarternary,
+  defaultBorderColor: color.quarternary,
+  defaultHoverColor: color.white,
+  defaultHoverBackgroundColor: color.grey800,
+
+  primaryColor: color.white,
+  primaryBackgroundColor: color.red200,
+  primaryBorderColor: color.red200,
+  primaryHoverColor: color.white,
+  primaryHoverBackgroundColor: color.red300,
+
+  textColor: color.grey400,
+  textBackgroundColor: "transparent",
+  textBorderColor: "transparent",
+  textHoverColor: color.grey400,
+  textHoverBackgroundColor: "transparent",
+
+  linkColor: color.red200,
+  linkBackgroundColor: "transparent",
+  linkBorderColor: "transparent",
+  linkHoverColor: color.red300,
+  linkHoverBackgroundColor: "transparent",
+
+  smallFontSize: "0.875rem",
+  smallIconOnlyFontSize: "1rem",
+  smallBorderRadius: "0.25rem",
+  smallMinWidth: "4.75rem",
+  smallHeight: "1.875rem",
+  smallPadding: "0 0.75rem",
+
+  defaultFontSize: "0.875rem",
+  defautlIconOnlyFontSize: "1.125rem",
+  defaultBorderRadius: "0.25rem",
+  defaultMinWidth: "5.25rem",
+  defaultHeight: "2.25rem",
+  defaultPadding: "0.375rem 0.75rem",
+
+  largeFontSize: "0.875rem",
+  largelIconOnlyFontSize: "1.375rem",
+  largeBorderRadius: "0.25rem",
+  largeMinWidth: "6.75rem",
+  largeHeight: "2.625rem",
+  largePadding: "0.375rem 1.125rem",
+
+  defaultDisableColor: color.grey500,
+  defaultDisableBorderColor: color.grey900,
+  defaultDisableBackgroundColor: "transparent",
+
+  textualDisableColor: color.grey500,
+  textualDisableBorderColor: "transparent",
+  textualDisableBackgroundColor: "transparent",
+
+  defaultGhostColor: "",
+  defaultGhostBorderColor: "",
+  defaultGhostHoverColor: color.white,
+  defaultGhostHoverBackgroundColor: color.grey800,
+  // defaultRoundFontSize: defaultFontSize,
+  // defaultRoundBorderRadius: "0.25rem",
+  // defaultRoundMinWidth: "5.25rem",
+  // defaultRoundHeight: "2.25rem",
+  // defaultRoundPadding: "0.375rem 0.75rem",
+
+  // defaultFontSize: "",
+  // defaultColor: color,
+  // defaultBackgroundColor:color,
+  // defaultBorderColor:color,
+  // defaultHoverColor:color,
+  // defaultBorderRadius: "",
+  // defaultMinWidth: "",
+  // defaultHeight: "",
+  // defaultPadding: "",
+};
